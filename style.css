@@ -1,0 +1,72 @@
+/*!display flex ve flex-direction column yapınca main'imizi alt alta yapıyoruz */
+#main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgreen;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+
+/*! display-flex yapıyoruz ve flex-direction column yapıyoruz align-items center yapıp projemisi ortalıyoruz ve alt alta getiriyoruz */
+/*! eğer flex-direction row yaparsak her şeyi yanyana alırız dip not!*/
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*! Header başlığımızda ortalıyoruz */
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header-wrapper > h4{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+/*!Miktar inputumuzu genişletiyoruz*/
+#input{
+    padding: 5px;
+    margin: 0px 10px;
+    width: 120px;
+}
+
+
+/*! padding ile eur inputlarımızı genişletiyoruz*/
+select{
+    padding: 5px;
+}
+
+/*! spanımızı aşağı kaydıracağız*/
+span{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
